@@ -1,4 +1,3 @@
-import { BigNumber } from '@ethersproject/contracts/node_modules/@ethersproject/bignumber';
 import { parseEther } from '@ethersproject/units';
 import '@nomiclabs/hardhat-ethers';
 import { expect } from 'chai';
@@ -29,6 +28,7 @@ import {
   userTwo,
   userTwoAddress,
 } from '../../__setup.spec';
+import {BigNumber} from "ethers";
 
 makeSuiteCleanRoom('Fee Collect Module', function () {
   const DEFAULT_COLLECT_PRICE = parseEther('10');

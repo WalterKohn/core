@@ -1,4 +1,3 @@
-import { AbiCoder } from '@ethersproject/contracts/node_modules/@ethersproject/abi';
 import { parseEther } from '@ethersproject/units';
 import '@nomiclabs/hardhat-ethers';
 import { expect, use } from 'chai';
@@ -97,7 +96,7 @@ export let testWallet: Wallet;
 export let lensHubImpl: LensHub;
 export let lensHub: LensHub;
 export let currency: Currency;
-export let abiCoder: AbiCoder;
+export let abiCoder: any;
 export let mockModuleData: BytesLike;
 export let hubLibs: LensHubLibraryAddresses;
 export let eventsLib: Events;
