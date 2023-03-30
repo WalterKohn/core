@@ -29,15 +29,28 @@ async function main() {
     // console.log("tx:", tx.hash);
 
     // ========================= Post ================================
+    const inputStruct: PostDataStruct = {
+        profileId: 29757,
+        contentURI: 'ipfs://bafkreicelzjw3qjzsspkeo22ifbt6jvtzgb33uzrdu4ptveefae6bntl34',
+        collectModule: freeCollectModule.address,
+        collectModuleInitData: defaultAbiCoder.encode(['bool'], [false]), // followerOnly
+        referenceModule: ZERO_ADDRESS,
+        referenceModuleInitData: [],
+    };
     // const inputStruct: PostDataStruct = {
     //     profileId: 29757,
-    //     contentURI: 'https://ipfs.io/ipfs/Qmby8QocUU2sPZL46rZeMctAuF5nrCc7eR1PPkooCztWPz',
+    //     contentURI: 'https://raw.githubusercontent.com/WalterKohn/assets/master/slide2.json',
     //     collectModule: freeCollectModule.address,
-    //     collectModuleInitData: defaultAbiCoder.encode(['bool'], [false]), // followerOnly
+    //     collectModuleInitData: defaultAbiCoder.encode(['bool'], [false]),
     //     referenceModule: ZERO_ADDRESS,
     //     referenceModuleInitData: [],
     // };
-    // await lensHub.post(inputStruct);
+    // q:how to get nonce using ethers?
+    let nonce = await ethers.provider.getTransactionCount(user0.address);
+    console.log("nonce:", nonce);
+    let transaction = await lensHub.post(inputStruct, {nonce: nonce, gasLimit: 500000});
+    console.log("tx:", transaction.hash);
+
 
     // ========================= Collect ================================
     // await lensHub.collect(29757, 1, []); // self collect
@@ -56,16 +69,26 @@ async function main() {
     //     followNFTURI: 'https://ipfs.io/ipfs/QmTFLSXdEQ6qsSzaXaCSNtiv6wA56qq87ytXJ182dXDQJS',
     // };
     // await profileProxy.connect(user1).proxyCreateProfile(inputStruct);  // 29762
-    
-    const mirrorStruct = {
-        profileId: 29762,
-        profileIdPointed: 29757,
-        pubIdPointed: 1,
-        referenceModuleData: [],
-        referenceModule: ZERO_ADDRESS,
-        referenceModuleInitData: []
-    }
-    await lensHub.connect(user1).mirror(mirrorStruct);
+
+    // const mirrorStruct = {
+    //     profileId: 29762,
+    //     profileIdPointed: 29757,
+    //     pubIdPointed: 1,
+    //     referenceModuleData: [],
+    //     referenceModule: ZERO_ADDRESS,
+    //     referenceModuleInitData: []
+    // }
+    // await lensHub.connect(user1).mirror(mirrorStruct);
+
+    // const mirrorStruct = {
+    //     profileId: 29757,
+    //     profileIdPointed: 29757,
+    //     pubIdPointed: 1,
+    //     referenceModuleData: [],
+    //     referenceModule: ZERO_ADDRESS,
+    //     referenceModuleInitData: []
+    // }
+    // await lensHub.mirror(mirrorStruct);
 
 }
 

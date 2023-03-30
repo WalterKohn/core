@@ -15,7 +15,7 @@ async function main() {
     // console.log(`Profile ID by handle: ${await lensHub.getProfileIdByHandle("sd0328.test")}`);
 
     // ========================= Profile Data ================================
-    // let profile = await lensHub.getProfile(29757);
+    let profile = await lensHub.getProfile(29757);
     // let profile = await lensHub.getProfile(29762);
     // console.log(`pubCount: ${profile.pubCount}`);
     // console.log(`followModule: ${profile.followModule}`);
@@ -32,15 +32,15 @@ async function main() {
     // followNFTURI: https://ipfs.io/ipfs/QmTFLSXdEQ6qsSzaXaCSNtiv6wA56qq87ytXJ182dXDQJS
 
     // ========================= Pub Data ================================
-    // let pub = await lensHub.getPub(29757, 1);
-    let pub = await lensHub.getPub(29762, 1);
+    let pub = await lensHub.getPub(29757, 20);
+    // let pub = await lensHub.getPub(29762, 2);
     console.log(`profileIdPointed: ${pub.profileIdPointed}`); // original profile id
     console.log(`pubIdPointed: ${pub.pubIdPointed}`); // original publication id
     console.log(`contentURI: ${pub.contentURI}`);
     console.log(`referenceModule: ${pub.referenceModule}`);
     console.log(`collectModule: ${pub.collectModule}`);
     console.log(`collectNFT: ${pub.collectNFT}`);
-    
+    //
     // profileIdPointed: 0
     // pubIdPointed: 0
     // contentURI: https://ipfs.io/ipfs/Qmby8QocUU2sPZL46rZeMctAuF5nrCc7eR1PPkooCztWPz

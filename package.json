@@ -25,7 +25,8 @@
     "format": "prettier --write .",
     "lint": "eslint .",
     "runs": "hardhat run scripts/runs.ts --network mumbai",
-    "view": "hardhat run scripts/view.ts --network mumbai"
+    "view": "hardhat run scripts/view.ts --network mumbai",
+    "clean": "hardhat run scripts/clean.ts"
   },
   "repository": {
     "type": "git",

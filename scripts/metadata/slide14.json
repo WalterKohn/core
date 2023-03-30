@@ -1,0 +1,25 @@
+{
+  "version": "2.0.0",
+  "mainContentFocus": "IMAGE",
+  "metadata_id": "b30eb172-31f7-4a9b-93d2-58a28e0011bd",
+  "contentWarning": null,
+  "description": "sd slide item",
+  "locale": "en-US",
+  "content": "## PonPonSnake & Assure Wallet\n\n## Celebrate the cooperation with Assure Wallet\n\n**We will give away 10,000 $SRC(worth 333 USDT) for 20 winners,each one can get 500 $SRC(worth 16 USDT )! And also 20 Assure PASS NFT for 20 winners!**\n\nYou will need to complete tasks to get the rewards!\n\n**Time:** 2023-03-03  ~ 2023-03-10 （UTC+8)\n\n**Reward:** 10,000 SRC（each winner can get 16$）+20 Assure PASS NFT * 40\n\n**Rules:**\n\n1.Follow [@Assure_pro](https://twitter.com/Assure_pro) on Twitter\n\n2.Follow [@PonPonSnake_NFT](https://twitter.com/PonPonSnake_NFT) on Twitter\n\n3.Join [PonPonSnake Global](https://t.me/PonPonSnakeEN) on Telegram\n\n4.Download and sign [ponponsnake](https://www.ponponsnake.com) ,then submit ID\n\n5.Proof of Work for Download Assure then submit Assure ID screenshot\n\n6.Visit ponponsnake aspace to get red packets Website\n\n7.Invite 1 Friend",
+  "external_url": "https://www.ponponsnake.com",
+  "image": "https://stardustfin.com/image/ponponsnake.png",
+  "imageMimeType": "image/png",
+  "name": "PonPonSnake",
+  "media": [
+    {
+      "item": "https://stardustfin.com/image/ponponsnake.png",
+      "type": "image/png"
+    }
+  ],
+  "animation_url": null,
+  "attributes": [],
+  "tags": [
+    "test"
+  ],
+  "appId": "Stardust"
+}

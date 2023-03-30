@@ -1,0 +1,25 @@
+{
+  "version": "2.0.0",
+  "mainContentFocus": "IMAGE",
+  "metadata_id": "d13dd94b-799c-43da-bdbb-bb5b0e32f490",
+  "contentWarning": null,
+  "description": "sd slide item",
+  "locale": "en-US",
+  "content": "Airdrop 3 will be our final round of Blur airdrops. Airdrop 1 was for everyone who traded in the 6 months prior to the launch of the Blur marketplace. Airdrop 2 was for traders who actively listed on Blur through November. Airdrop 3 is for traders who place bids on Blur and will be the largest Blur airdrop (around 1-2x the size of Airdrop 2)\nTLDR;\nPoints are rewarded to bids on collections based on the collection’s 24h volume.\nWithin a collection, the bids that take the highest “risk” earn the vast majority of points.\ni.e. if the floor is 1.01 and there are 100 bids at 1 and you bid at 0.99, then your bid won’t earn much points because there’s 100 eth of buy walls ahead of you, but if you bid at 1.01 you’ll earn a lot more because now you’re taking the most “risk”.\nThe longer your bid is active the more points you’ll receive. When a bid is accepted it stops earning points.\nYou can reuse the ETH in your Bid Pool across collections, so the strategy that yields the most points is to bid closest to the floor across active collections. This doesn’t necessarily require a lot of ETH because you can bid on active collections that have low floors.\nAdditionally, there is a rolling 24h leaderboard that grants different boosts up to 2.5x for the top 100 bidders in the 24h time period.\nPoints are only rewarded for active bids so there are no airdrop benefits to having your bids get accepted, other than getting a new NFT at a price below the floor. There will be no additional benefits for traders based on their trading volume, so this means there are no benefits for wash traders.\nLoyalty\nAs with airdrop 2, loyalty doesn’t affect how many Care Packages you get in Airdrop 3, but it does affect your luck when you reveal them.\nIf your average loyalty throughout the airdrop 3 time period stays high until the airdrop occurs then you will have much higher odds of getting super rare Care Packages which contain a lot more $BLUR tokens.\n<50% loyalty - low luck\n50-90% loyalty - medium luck\n90-97% loyalty - high luck\n97%+ loyalty - very high luck\nWhen you list on other marketplaces, as long as you list on Blur at the same price or lower, it won’t affect your loyalty score. You can use Blur’s advanced listing tools to list across all marketplaces in one go!\nHere are some examples:\nList for 0.1 on Blur and 0.05 on other marketplaces, score goes down\nList for 0.05 on Blur and 0.1 on other marketplaces, score goes up\nList for 0.1 on Blur and 0.1 on other marketplaces, score goes up\nNote that Blur’s airdrop tab shows your current loyalty but it doesn’t show your average loyalty. We will make a change in the future to show your average loyalty as well for convenience. Restricted collections are excluded from the average loyalty calculation but this is not reflected in the UI currently. We will update the UI to reflect the loyalty excluding restricted collections.\nOpening\nLike Airdrop 1 and 2, you will be able to open the Care Packages from Airdrop 3 in January when the $BLUR token launches along with protocol governance.\nBlur is the NFT marketplace for pro traders. The majority of $BLUR will be distributed to the community.\nStart bidding now for Airdrop 3 rewards!\nP.S. If you have Blur points from our waitlist or participated in our private beta, there will be a separate airdrop for you once $BLUR launches in January",
+  "external_url": "https://twitter.com/blur_io",
+  "image": "https://stardustfin.com/image/Blur.png",
+  "imageMimeType": "image/png",
+  "name": "Blur",
+  "media": [
+    {
+      "item": "https://stardustfin.com/image/Blur.png",
+      "type": "image/png"
+    }
+  ],
+  "animation_url": null,
+  "attributes": [],
+  "tags": [
+    "test"
+  ],
+  "appId": "Stardust"
+}
